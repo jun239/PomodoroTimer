@@ -74,11 +74,9 @@
   // カウントダウン用関数
   function countDown() {
     if (workFlg == true) {
-      // count = 60000 * parseInt(dropDown1.textContent);
-      count = 8000;
+      count = 60000 * parseInt(dropDown1.textContent);
     } else {
-      // count = 60000 * parseInt(dropDown2.textContent);
-      count = 5000;
+      count = 60000 * parseInt(dropDown2.textContent);
     }
 
     const d = new Date(startTime - Date.now()  + elapsedTime + count);
