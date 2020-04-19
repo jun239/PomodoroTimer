@@ -1,0 +1,176 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+.textStyle1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+button#startBtn {
+  width: 10rem;
+  padding: 0.7rem;
+}
+
+.title {
+  font-weight: bold;
+  color: blueviolet;
+  margin: 2rem 0 0 0;
+}
+
+.mContainer {
+  height: 15rem;
+}
+
+.areaStyle1 {
+  width: 20%;
+}
+
+#container {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button#dropdownMenu1,
+button#dropdownMenu2 {
+  width: 100%;
+}
+
+.displayNone {
+  display: none;
+}
+
+p#work {
+  font-size: 2rem;
+}
+p#timer {
+  font-size: 4rem;
+}
+
+button#stopBtn,
+button#cancelBtn {
+  width: 8rem;
+  margin: 1rem;
+}
+
+h3 span {
+  font-size: 3rem;
+}
+
+/* .mContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  height: 100%;
+} */
+
+
+/* #container {
+  margin: 20px auto;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 30px;
+  width: 35%;
+}
+
+#container h3 {
+  font-weight: bold;
+  color: cadetblue;
+  font-size: 3rem;
+}
+
+#timer {
+  background: #ddd;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  background: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.6;
+}
+
+.displayNone {
+  display: none;
+}
+
+#mainImg {
+  border-radius: 50%;
+  border: solid #ddd 5px;
+  width: 60%;
+  margin: 2rem;
+}
+
+.count {
+  font-size: 5rem;
+}
+
+.counter {
+  font-size: 2.5rem;
+}
+
+.count,.counter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#stopBtn,#rtnBtn {
+  width: 40%;
+}
+
+.mContainer {
+  height: 22rem;
+  position: relative;
+}
+
+#rsltSec {
+  position: absolute;
+  left: 13.2rem;
+}
+
+#container h3#rsltMsg {
+  color: black;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+
+#rslt {
+  position: absolute;
+  left: 30%;
+}
+
+/* スマホ定義 */
+@media screen and (max-width: 600px) {
+  .flexFill {
+    flex: 1 1 auto;
+  }
+}
